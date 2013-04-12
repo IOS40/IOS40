@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.demoNameArray = [[NSMutableArray alloc] initWithObjects:@"CycleScrollDemo", nil];
+    _demoNameArray = [[NSMutableArray alloc] initWithObjects:@"CycleScrollDemo", nil];
 }
 
 

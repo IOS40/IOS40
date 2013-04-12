@@ -21,7 +21,7 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-        self.scrollView = [[UIScrollView alloc] initWithFrame:frame];
+        _scrollView = [[UIScrollView alloc] initWithFrame:frame];
     }
     return self;
 }
@@ -55,7 +55,6 @@
 
 - (void)initObjects
 {
-    NSLog(@"%d",[self.contentViews count]);
     self.scrollView.delegate = self;
     self.scrollView.pagingEnabled = YES;
     self.scrollView.showsHorizontalScrollIndicator = NO;
@@ -64,16 +63,16 @@
     if(self.direction == verticalDirection)
     {
         self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width, self.scrollView.frame.size.height * 3);
-        self.previousView = [[UIView alloc]initWithFrame:CGRectMake(0 , 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
-        self.currentView  = [[UIView alloc]initWithFrame:CGRectMake(0 , 0 + self.scrollView.frame.size.height, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
-        self.nextView     = [[UIView alloc]initWithFrame:CGRectMake(0 , 0 + self.scrollView.frame.size.height * 2, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _previousView = [[UIView alloc]initWithFrame:CGRectMake(0 , 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _currentView  = [[UIView alloc]initWithFrame:CGRectMake(0 , 0 + self.scrollView.frame.size.height, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _nextView     = [[UIView alloc]initWithFrame:CGRectMake(0 , 0 + self.scrollView.frame.size.height * 2, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
     }
     else
     {
         self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 3, self.scrollView.frame.size.height);
-        self.previousView = [[UIView alloc]initWithFrame:CGRectMake(0 , 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
-        self.currentView  = [[UIView alloc]initWithFrame:CGRectMake(0 + self.scrollView.frame.size.width, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
-        self.nextView     = [[UIView alloc]initWithFrame:CGRectMake(0 + self.scrollView.frame.size.width * 2, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _previousView = [[UIView alloc]initWithFrame:CGRectMake(0 , 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _currentView  = [[UIView alloc]initWithFrame:CGRectMake(0 + self.scrollView.frame.size.width, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
+        _nextView     = [[UIView alloc]initWithFrame:CGRectMake(0 + self.scrollView.frame.size.width * 2, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
     }
 
     [self addSubview:self.scrollView];

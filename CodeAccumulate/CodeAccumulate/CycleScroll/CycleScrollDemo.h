@@ -12,5 +12,5 @@
 @interface CycleScrollDemo : UIViewController<CycleScrollViewDataSource, CycleScrollViewDelegate>
 
 @property (strong, nonatomic) CycleScrollView *cycleView;
-@property (strong, nonatomic) NSMutableArray*  views;
+@property (strong, nonatomic) NSMutableArray*  contentViews;
 @end

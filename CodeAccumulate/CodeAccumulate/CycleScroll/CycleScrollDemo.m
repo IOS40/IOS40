@@ -18,45 +18,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CycleScrollView* cycle = [[CycleScrollView alloc] initWithFrame:CGRectMake(0, 0, LCDW, LCDH - 20 - 44)];
-    cycle.delegate = self;
-    cycle.dataSource = self;
+    _contentViews = [[NSMutableArray alloc]initWithCapacity:10];
+
+    _cycleView = [[CycleScrollView alloc] initWithFrame:CGRectMake(0, 0, LCDW, LCDH - 20 - 44)];
+    self.cycleView.delegate = self;
+    self.cycleView.dataSource = self;
     
-    [self.view addSubview:cycle];
-    
+    [self.view addSubview:self.cycleView];
 }
 
 - (NSArray*)cycleScrollViewContentViews
 {
+    for (int i = 1; i < 13; i++)
+    {
+        NSString* nameString = [NSString stringWithFormat:@"%d@2x",i];
+        UIImage* image = [[UIImage alloc] initWithContentsOfFile:App_ContentFile(nameString, @"png")];
+        UIImageView* imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
+        [imageView setImage:image];
+        
+        [self.contentViews addObject:imageView];
+        
+        [image release];
+        [imageView release];
+    }
     
-    self.views = [[NSMutableArray alloc] initWithCapacity:10];
-    
-    UIView* view1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view1.backgroundColor = [UIColor greenColor];
-    
-    UIView* view2 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view2.backgroundColor = [UIColor redColor];
-    
-    UIView* view3 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view3.backgroundColor = [UIColor yellowColor];
-    
-    UIView* view4 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view4.backgroundColor = [UIColor blueColor];
-    
-    UIView* view5 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view5.backgroundColor = [UIColor orangeColor];
-    
-    UIView* view6 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.cycleView.frame.size.width, self.cycleView.frame.size.height)];
-    view6.backgroundColor = [UIColor purpleColor];
-    
-    [self.views addObject:view1];
-    [self.views addObject:view2];
-    [self.views addObject:view3];
-    [self.views addObject:view4];
-    [self.views addObject:view5];
-    [self.views addObject:view6];
-    
-    return self.views;
+    return self.contentViews;
 }
 
 - (NSInteger)cycleScrollViewCurrentPage
@@ -65,7 +51,7 @@
 }
 - (NSInteger)cycleScrollViewTotalPage
 {
-    return [self.views count];
+    return [self.contentViews count];
 }
 
 - (ContentDirection)cycleScrollViewScrollDirection
@@ -85,6 +71,7 @@
 - (void)dealloc
 {
     self.cycleView = nil;
+    self.contentViews = nil;
     [super dealloc];
 }
 @end
