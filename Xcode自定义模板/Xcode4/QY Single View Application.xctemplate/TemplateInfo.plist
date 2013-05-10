@@ -234,8 +234,6 @@
 			<key>Path</key>
 			<string>ASIHTTP/Reachability.m</string>
 		</dict>
-		<key>___PACKAGENAME___-Prefix.pch:objC:importAPPCommonDef</key>
-		<string>#import &quot;APPCommonDef/APPCommonDef.h&quot;</string>
 		<key>APPCommonDef/APPCommonDef.h</key>
 		<dict>
 			<key>Group</key>
@@ -257,28 +255,28 @@
 			<key>Path</key>
 			<string>APPCommonDef/QYHelpFunction.m</string>
 		</dict>
-		<key>GDataXMLNode.h</key>
+		<key>GData/GDataXMLNode.h</key>
 		<dict>
 			<key>Group</key>
 			<string>GData</string>
 			<key>Path</key>
 			<string>GData/GDataXMLNode.h</string>
 		</dict>
-		<key>GDataXMLNode.m</key>
+		<key>GData/GDataXMLNode.m</key>
 		<dict>
 			<key>Group</key>
 			<string>GData</string>
 			<key>Path</key>
 			<string>GData/GDataXMLNode.m</string>
 		</dict>
-		<key>JSONKit.h</key>
+		<key>JSONKit/JSONKit.h</key>
 		<dict>
 			<key>Group</key>
 			<string>JSONKit</string>
 			<key>Path</key>
 			<string>JSONKit/JSONKit.h</string>
 		</dict>
-		<key>JSONKit.m</key>
+		<key>JSONKit/JSONKit.m</key>
 		<dict>
 			<key>Group</key>
 			<string>JSONKit</string>
@@ -331,14 +329,13 @@
 		<string>ASIHttp/ASIProgressDelegate.h</string>
 		<string>ASIHttp/Reachability.h</string>
 		<string>ASIHttp/Reachability.m</string>
-		<string>___PACKAGENAME___-Prefix.pch:objC:importAPPCommonDef</string>
 		<string>APPCommonDef/APPCommonDef.h</string>
 		<string>APPCommonDef/QYHelpFunction.h</string>
 		<string>APPCommonDef/QYHelpFunction.m</string>
-		<string>GDataXMLNode.h</string>
-		<string>GDataXMLNode.m</string>
-		<string>JSONKit.h</string>
-		<string>JSONKit.m</string>
+		<string>GData/GDataXMLNode.h</string>
+		<string>GData/GDataXMLNode.m</string>
+		<string>JSONKit/JSONKit.h</string>
+		<string>JSONKit/JSONKit.m</string>
 		<string>___VARIABLE_classPrefix:identifier___ViewController.h:viewControllerInterface</string>
 		<string>___VARIABLE_classPrefix:identifier___ViewController.m:comments</string>
 		<string>___VARIABLE_classPrefix:identifier___ViewController.m:import:___VARIABLE_classPrefix:identifier___ViewController.h</string>

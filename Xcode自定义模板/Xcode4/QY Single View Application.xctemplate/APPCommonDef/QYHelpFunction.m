@@ -6,6 +6,7 @@
 //  Copyright (c) 2012年 Ibokan. All rights reserved.
 //
 
+#import "APPCommonDef.h"
 #import "QYHelpFunction.h"
 
 @implementation QYHelpFunction
