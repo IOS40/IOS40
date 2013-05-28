@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'iPhone_Test' target in the 'iPhone_Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//#define GOOGLE_PLACE_LIST_API_URL @"https://maps.googleapis.com/maps/api/place/search/json?location=%@&radius=100&types=&language=%@&name=&sensor=%@&key=AIzaSyCHYFLaNCS8HTLp6cK0mk1BXjDV3izQgfk"
+
+#define GOOGLE_PLACE_LIST_API_URL @"http://maps.google.cn/maps/geo?output=json&hl=zh_cn&q=%@"

@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2100C7DD1558E11A00E10E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2100C7DC1558E11A00E10E8C /* UIKit.framework */; };
+		2100C7DF1558E11A00E10E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2100C7DE1558E11A00E10E8C /* Foundation.framework */; };
+		2100C7E11558E11A00E10E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2100C7E01558E11A00E10E8C /* CoreGraphics.framework */; };
+		2100C7E71558E11A00E10E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2100C7E51558E11A00E10E8C /* InfoPlist.strings */; };
+		2100C7E91558E11A00E10E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2100C7E81558E11A00E10E8C /* main.m */; };
+		2100C7ED1558E11A00E10E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2100C7EC1558E11A00E10E8C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2100C7D81558E11A00E10E8C /* PopViewWithSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopViewWithSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2100C7DC1558E11A00E10E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2100C7DE1558E11A00E10E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2100C7E01558E11A00E10E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2100C7E41558E11A00E10E8C /* PopViewWithSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopViewWithSlider-Info.plist"; sourceTree = "<group>"; };
+		2100C7E61558E11A00E10E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2100C7E81558E11A00E10E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2100C7EA1558E11A00E10E8C /* PopViewWithSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopViewWithSlider-Prefix.pch"; sourceTree = "<group>"; };
+		2100C7EB1558E11A00E10E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2100C7EC1558E11A00E10E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2100C7D51558E11A00E10E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2100C7DD1558E11A00E10E8C /* UIKit.framework in Frameworks */,
+				2100C7DF1558E11A00E10E8C /* Foundation.framework in Frameworks */,
+				2100C7E11558E11A00E10E8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2100C7CD1558E11A00E10E8C = {
+			isa = PBXGroup;
+			children = (
+				2100C7E21558E11A00E10E8C /* PopViewWithSlider */,
+				2100C7DB1558E11A00E10E8C /* Frameworks */,
+				2100C7D91558E11A00E10E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2100C7D91558E11A00E10E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2100C7D81558E11A00E10E8C /* PopViewWithSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2100C7DB1558E11A00E10E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2100C7DC1558E11A00E10E8C /* UIKit.framework */,
+				2100C7DE1558E11A00E10E8C /* Foundation.framework */,
+				2100C7E01558E11A00E10E8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2100C7E21558E11A00E10E8C /* PopViewWithSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2100C7EB1558E11A00E10E8C /* AppDelegate.h */,
+				2100C7EC1558E11A00E10E8C /* AppDelegate.m */,
+				2100C7E31558E11A00E10E8C /* Supporting Files */,
+			);
+			path = PopViewWithSlider;
+			sourceTree = "<group>";
+		};
+		2100C7E31558E11A00E10E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2100C7E41558E11A00E10E8C /* PopViewWithSlider-Info.plist */,
+				2100C7E51558E11A00E10E8C /* InfoPlist.strings */,
+				2100C7E81558E11A00E10E8C /* main.m */,
+				2100C7EA1558E11A00E10E8C /* PopViewWithSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2100C7D71558E11A00E10E8C /* PopViewWithSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2100C7F01558E11A00E10E8C /* Build configuration list for PBXNativeTarget "PopViewWithSlider" */;
+			buildPhases = (
+				2100C7D41558E11A00E10E8C /* Sources */,
+				2100C7D51558E11A00E10E8C /* Frameworks */,
+				2100C7D61558E11A00E10E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopViewWithSlider;
+			productName = PopViewWithSlider;
+			productReference = 2100C7D81558E11A00E10E8C /* PopViewWithSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2100C7CF1558E11A00E10E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "热频科技";
+			};
+			buildConfigurationList = 2100C7D21558E11A00E10E8C /* Build configuration list for PBXProject "PopViewWithSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2100C7CD1558E11A00E10E8C;
+			productRefGroup = 2100C7D91558E11A00E10E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2100C7D71558E11A00E10E8C /* PopViewWithSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2100C7D61558E11A00E10E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2100C7E71558E11A00E10E8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2100C7D41558E11A00E10E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2100C7E91558E11A00E10E8C /* main.m in Sources */,
+				2100C7ED1558E11A00E10E8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2100C7E51558E11A00E10E8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2100C7E61558E11A00E10E8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2100C7EE1558E11A00E10E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2100C7EF1558E11A00E10E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2100C7F11558E11A00E10E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopViewWithSlider/PopViewWithSlider-Prefix.pch";
+				INFOPLIST_FILE = "PopViewWithSlider/PopViewWithSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2100C7F21558E11A00E10E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopViewWithSlider/PopViewWithSlider-Prefix.pch";
+				INFOPLIST_FILE = "PopViewWithSlider/PopViewWithSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2100C7D21558E11A00E10E8C /* Build configuration list for PBXProject "PopViewWithSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2100C7EE1558E11A00E10E8C /* Debug */,
+				2100C7EF1558E11A00E10E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2100C7F01558E11A00E10E8C /* Build configuration list for PBXNativeTarget "PopViewWithSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2100C7F11558E11A00E10E8C /* Debug */,
+				2100C7F21558E11A00E10E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2100C7CF1558E11A00E10E8C /* Project object */;
+}
