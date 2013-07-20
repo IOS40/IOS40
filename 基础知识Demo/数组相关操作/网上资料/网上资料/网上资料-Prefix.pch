@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the '网上资料' target in the '网上资料' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
