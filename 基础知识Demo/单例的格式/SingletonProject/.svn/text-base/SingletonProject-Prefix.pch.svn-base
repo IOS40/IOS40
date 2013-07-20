@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SingletonProject' target in the 'SingletonProject' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

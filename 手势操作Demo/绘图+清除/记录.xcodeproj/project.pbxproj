@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFD540216429491005E2B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFD540116429491005E2B6D /* UIKit.framework */; };
+		0FFD540416429491005E2B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFD540316429491005E2B6D /* Foundation.framework */; };
+		0FFD540616429491005E2B6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFD540516429491005E2B6D /* CoreGraphics.framework */; };
+		0FFD540C16429491005E2B6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD540A16429491005E2B6D /* InfoPlist.strings */; };
+		0FFD540E16429491005E2B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD540D16429491005E2B6D /* main.m */; };
+		0FFD541216429491005E2B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD541116429491005E2B6D /* AppDelegate.m */; };
+		0FFD541516429491005E2B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD541416429491005E2B6D /* ViewController.m */; };
+		0FFD541816429491005E2B6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD541616429491005E2B6D /* ViewController.xib */; };
+		0FFD5420164294CC005E2B6D /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD541F164294CC005E2B6D /* QuartzView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FFD53FD16429491005E2B6D /* 记录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFD540116429491005E2B6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FFD540316429491005E2B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FFD540516429491005E2B6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FFD540916429491005E2B6D /* 记录-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "记录-Info.plist"; sourceTree = "<group>"; };
+		0FFD540B16429491005E2B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FFD540D16429491005E2B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FFD540F16429491005E2B6D /* 记录-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "记录-Prefix.pch"; sourceTree = "<group>"; };
+		0FFD541016429491005E2B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FFD541116429491005E2B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FFD541316429491005E2B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FFD541416429491005E2B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FFD541716429491005E2B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0FFD541E164294CC005E2B6D /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		0FFD541F164294CC005E2B6D /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFD53FA16429491005E2B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFD540216429491005E2B6D /* UIKit.framework in Frameworks */,
+				0FFD540416429491005E2B6D /* Foundation.framework in Frameworks */,
+				0FFD540616429491005E2B6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFD53F216429491005E2B6D = {
+			isa = PBXGroup;
+			children = (
+				0FFD540716429491005E2B6D /* 记录 */,
+				0FFD540016429491005E2B6D /* Frameworks */,
+				0FFD53FE16429491005E2B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FFD53FE16429491005E2B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD53FD16429491005E2B6D /* 记录.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FFD540016429491005E2B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD540116429491005E2B6D /* UIKit.framework */,
+				0FFD540316429491005E2B6D /* Foundation.framework */,
+				0FFD540516429491005E2B6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FFD540716429491005E2B6D /* 记录 */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD541016429491005E2B6D /* AppDelegate.h */,
+				0FFD541116429491005E2B6D /* AppDelegate.m */,
+				0FFD541316429491005E2B6D /* ViewController.h */,
+				0FFD541416429491005E2B6D /* ViewController.m */,
+				0FFD541E164294CC005E2B6D /* QuartzView.h */,
+				0FFD541F164294CC005E2B6D /* QuartzView.m */,
+				0FFD541616429491005E2B6D /* ViewController.xib */,
+				0FFD540816429491005E2B6D /* Supporting Files */,
+			);
+			path = "记录";
+			sourceTree = "<group>";
+		};
+		0FFD540816429491005E2B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD540916429491005E2B6D /* 记录-Info.plist */,
+				0FFD540A16429491005E2B6D /* InfoPlist.strings */,
+				0FFD540D16429491005E2B6D /* main.m */,
+				0FFD540F16429491005E2B6D /* 记录-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FFD53FC16429491005E2B6D /* 记录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFD541B16429491005E2B6D /* Build configuration list for PBXNativeTarget "记录" */;
+			buildPhases = (
+				0FFD53F916429491005E2B6D /* Sources */,
+				0FFD53FA16429491005E2B6D /* Frameworks */,
+				0FFD53FB16429491005E2B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "记录";
+			productName = "记录";
+			productReference = 0FFD53FD16429491005E2B6D /* 记录.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FFD53F416429491005E2B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FFD53F716429491005E2B6D /* Build configuration list for PBXProject "记录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FFD53F216429491005E2B6D;
+			productRefGroup = 0FFD53FE16429491005E2B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FFD53FC16429491005E2B6D /* 记录 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFD53FB16429491005E2B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFD540C16429491005E2B6D /* InfoPlist.strings in Resources */,
+				0FFD541816429491005E2B6D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFD53F916429491005E2B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFD540E16429491005E2B6D /* main.m in Sources */,
+				0FFD541216429491005E2B6D /* AppDelegate.m in Sources */,
+				0FFD541516429491005E2B6D /* ViewController.m in Sources */,
+				0FFD5420164294CC005E2B6D /* QuartzView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FFD540A16429491005E2B6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFD540B16429491005E2B6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FFD541616429491005E2B6D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFD541716429491005E2B6D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FFD541916429491005E2B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FFD541A16429491005E2B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FFD541C16429491005E2B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "记录/记录-Prefix.pch";
+				INFOPLIST_FILE = "记录/记录-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FFD541D16429491005E2B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "记录/记录-Prefix.pch";
+				INFOPLIST_FILE = "记录/记录-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFD53F716429491005E2B6D /* Build configuration list for PBXProject "记录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFD541916429491005E2B6D /* Debug */,
+				0FFD541A16429491005E2B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FFD541B16429491005E2B6D /* Build configuration list for PBXNativeTarget "记录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFD541C16429491005E2B6D /* Debug */,
+				0FFD541D16429491005E2B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FFD53F416429491005E2B6D /* Project object */;
+}

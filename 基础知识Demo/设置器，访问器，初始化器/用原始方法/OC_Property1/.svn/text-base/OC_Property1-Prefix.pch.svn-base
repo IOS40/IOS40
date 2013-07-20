@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OC_Property1' target in the 'OC_Property1' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

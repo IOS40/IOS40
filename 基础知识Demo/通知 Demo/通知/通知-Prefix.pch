@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '通知' target in the '通知' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

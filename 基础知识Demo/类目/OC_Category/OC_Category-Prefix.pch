@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OC_Category' target in the 'OC_Category' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

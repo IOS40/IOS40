@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC7C7FD1648EFE900CB3FAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC7C7FC1648EFE900CB3FAC /* UIKit.framework */; };
+		0FC7C7FF1648EFE900CB3FAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC7C7FE1648EFE900CB3FAC /* Foundation.framework */; };
+		0FC7C8011648EFE900CB3FAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC7C8001648EFE900CB3FAC /* CoreGraphics.framework */; };
+		0FC7C8071648EFE900CB3FAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7C8051648EFE900CB3FAC /* InfoPlist.strings */; };
+		0FC7C8091648EFE900CB3FAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7C8081648EFE900CB3FAC /* main.m */; };
+		0FC7C80D1648EFE900CB3FAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7C80C1648EFE900CB3FAC /* AppDelegate.m */; };
+		0FC7C8101648EFE900CB3FAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7C80F1648EFE900CB3FAC /* ViewController.m */; };
+		0FC7C8131648EFE900CB3FAC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7C8111648EFE900CB3FAC /* ViewController.xib */; };
+		0FC7C81B1648F09200CB3FAC /* HuaXian.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7C81A1648F09200CB3FAC /* HuaXian.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC7C7F81648EFE900CB3FAC /* 划线，动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "划线，动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC7C7FC1648EFE900CB3FAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FC7C7FE1648EFE900CB3FAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FC7C8001648EFE900CB3FAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FC7C8041648EFE900CB3FAC /* 划线，动画-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "划线，动画-Info.plist"; sourceTree = "<group>"; };
+		0FC7C8061648EFE900CB3FAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FC7C8081648EFE900CB3FAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FC7C80A1648EFE900CB3FAC /* 划线，动画-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "划线，动画-Prefix.pch"; sourceTree = "<group>"; };
+		0FC7C80B1648EFE900CB3FAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FC7C80C1648EFE900CB3FAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FC7C80E1648EFE900CB3FAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FC7C80F1648EFE900CB3FAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FC7C8121648EFE900CB3FAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0FC7C8191648F09200CB3FAC /* HuaXian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuaXian.h; sourceTree = "<group>"; };
+		0FC7C81A1648F09200CB3FAC /* HuaXian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuaXian.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FC7C7F51648EFE900CB3FAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7C7FD1648EFE900CB3FAC /* UIKit.framework in Frameworks */,
+				0FC7C7FF1648EFE900CB3FAC /* Foundation.framework in Frameworks */,
+				0FC7C8011648EFE900CB3FAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC7C7ED1648EFE900CB3FAC = {
+			isa = PBXGroup;
+			children = (
+				0FC7C8021648EFE900CB3FAC /* 划线，动画 */,
+				0FC7C7FB1648EFE900CB3FAC /* Frameworks */,
+				0FC7C7F91648EFE900CB3FAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FC7C7F91648EFE900CB3FAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7C7F81648EFE900CB3FAC /* 划线，动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FC7C7FB1648EFE900CB3FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7C7FC1648EFE900CB3FAC /* UIKit.framework */,
+				0FC7C7FE1648EFE900CB3FAC /* Foundation.framework */,
+				0FC7C8001648EFE900CB3FAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FC7C8021648EFE900CB3FAC /* 划线，动画 */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7C80B1648EFE900CB3FAC /* AppDelegate.h */,
+				0FC7C80C1648EFE900CB3FAC /* AppDelegate.m */,
+				0FC7C80E1648EFE900CB3FAC /* ViewController.h */,
+				0FC7C80F1648EFE900CB3FAC /* ViewController.m */,
+				0FC7C8191648F09200CB3FAC /* HuaXian.h */,
+				0FC7C81A1648F09200CB3FAC /* HuaXian.m */,
+				0FC7C8111648EFE900CB3FAC /* ViewController.xib */,
+				0FC7C8031648EFE900CB3FAC /* Supporting Files */,
+			);
+			path = "划线，动画";
+			sourceTree = "<group>";
+		};
+		0FC7C8031648EFE900CB3FAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FC7C8041648EFE900CB3FAC /* 划线，动画-Info.plist */,
+				0FC7C8051648EFE900CB3FAC /* InfoPlist.strings */,
+				0FC7C8081648EFE900CB3FAC /* main.m */,
+				0FC7C80A1648EFE900CB3FAC /* 划线，动画-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FC7C7F71648EFE900CB3FAC /* 划线，动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FC7C8161648EFE900CB3FAC /* Build configuration list for PBXNativeTarget "划线，动画" */;
+			buildPhases = (
+				0FC7C7F41648EFE900CB3FAC /* Sources */,
+				0FC7C7F51648EFE900CB3FAC /* Frameworks */,
+				0FC7C7F61648EFE900CB3FAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "划线，动画";
+			productName = "划线，动画";
+			productReference = 0FC7C7F81648EFE900CB3FAC /* 划线，动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC7C7EF1648EFE900CB3FAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FC7C7F21648EFE900CB3FAC /* Build configuration list for PBXProject "划线，动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FC7C7ED1648EFE900CB3FAC;
+			productRefGroup = 0FC7C7F91648EFE900CB3FAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FC7C7F71648EFE900CB3FAC /* 划线，动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FC7C7F61648EFE900CB3FAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7C8071648EFE900CB3FAC /* InfoPlist.strings in Resources */,
+				0FC7C8131648EFE900CB3FAC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FC7C7F41648EFE900CB3FAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7C8091648EFE900CB3FAC /* main.m in Sources */,
+				0FC7C80D1648EFE900CB3FAC /* AppDelegate.m in Sources */,
+				0FC7C8101648EFE900CB3FAC /* ViewController.m in Sources */,
+				0FC7C81B1648F09200CB3FAC /* HuaXian.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FC7C8051648EFE900CB3FAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC7C8061648EFE900CB3FAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FC7C8111648EFE900CB3FAC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FC7C8121648EFE900CB3FAC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FC7C8141648EFE900CB3FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FC7C8151648EFE900CB3FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FC7C8171648EFE900CB3FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "划线，动画/划线，动画-Prefix.pch";
+				INFOPLIST_FILE = "划线，动画/划线，动画-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FC7C8181648EFE900CB3FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "划线，动画/划线，动画-Prefix.pch";
+				INFOPLIST_FILE = "划线，动画/划线，动画-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FC7C7F21648EFE900CB3FAC /* Build configuration list for PBXProject "划线，动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7C8141648EFE900CB3FAC /* Debug */,
+				0FC7C8151648EFE900CB3FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FC7C8161648EFE900CB3FAC /* Build configuration list for PBXNativeTarget "划线，动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC7C8171648EFE900CB3FAC /* Debug */,
+				0FC7C8181648EFE900CB3FAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC7C7EF1648EFE900CB3FAC /* Project object */;
+}

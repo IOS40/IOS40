@@ -1,0 +1,64 @@
+//
+//  AppDelegate.m
+//  OC_Game
+//
+//  Created by Ibokan on 12-10-22.
+//  Copyright (c) 2012年 Ibokan. All rights reserved.
+//
+
+#import "AppDelegate.h"
+#import "Map.h"
+#import "Fashi.h"
+#import "Zhanshi.h"
+#import "Shushi.h"
+
+@implementation AppDelegate
+
+- (void)dealloc
+{
+    [[Map instance] release];
+    [super dealloc];
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    // Insert code here to initialize your application
+    [self loadGame];
+    [self startGame];
+}
+
+
+-(void) loadGame
+{
+    Map* map = [Map instance];
+    
+    Fashi* fs = [[Fashi alloc] init];
+    Zhanshi* zs = [[Zhanshi alloc] init];
+    Shushi* ss = [[Shushi alloc] init];
+    
+    NSArray* array = [NSArray arrayWithObjects:fs, zs, ss, nil];
+    map.heros = array;
+    
+    [fs release];
+    [zs release];
+    [ss release];
+//    [array release];
+//    [map release];
+    
+}
+-(void) startGame
+{
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(runGame) userInfo:nil repeats:YES];
+    [timer fire];
+}
+
+-(void) runGame
+{
+    for (Hero* h in [[Map instance] heros])
+    {
+        [h move];
+    }
+}
+
+
+@end

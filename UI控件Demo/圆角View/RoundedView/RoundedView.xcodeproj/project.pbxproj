@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0366291680384F003C8E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0366281680384F003C8E73 /* UIKit.framework */; };
+		0F03662B1680384F003C8E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03662A1680384F003C8E73 /* Foundation.framework */; };
+		0F03662D1680384F003C8E73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03662C1680384F003C8E73 /* CoreGraphics.framework */; };
+		0F0366331680384F003C8E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F0366311680384F003C8E73 /* InfoPlist.strings */; };
+		0F0366351680384F003C8E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0366341680384F003C8E73 /* main.m */; };
+		0F0366391680384F003C8E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0366381680384F003C8E73 /* AppDelegate.m */; };
+		0F03663C1680384F003C8E73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F03663B1680384F003C8E73 /* ViewController.m */; };
+		0F03663F1680384F003C8E73 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F03663D1680384F003C8E73 /* ViewController.xib */; };
+		0F03664616803870003C8E73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F03664516803870003C8E73 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0366241680384F003C8E73 /* RoundedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0366281680384F003C8E73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F03662A1680384F003C8E73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F03662C1680384F003C8E73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F0366301680384F003C8E73 /* RoundedView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedView-Info.plist"; sourceTree = "<group>"; };
+		0F0366321680384F003C8E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F0366341680384F003C8E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0366361680384F003C8E73 /* RoundedView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundedView-Prefix.pch"; sourceTree = "<group>"; };
+		0F0366371680384F003C8E73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F0366381680384F003C8E73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F03663A1680384F003C8E73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F03663B1680384F003C8E73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F03663E1680384F003C8E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0F03664516803870003C8E73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0366211680384F003C8E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F03664616803870003C8E73 /* QuartzCore.framework in Frameworks */,
+				0F0366291680384F003C8E73 /* UIKit.framework in Frameworks */,
+				0F03662B1680384F003C8E73 /* Foundation.framework in Frameworks */,
+				0F03662D1680384F003C8E73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0366191680384F003C8E73 = {
+			isa = PBXGroup;
+			children = (
+				0F03662E1680384F003C8E73 /* RoundedView */,
+				0F0366271680384F003C8E73 /* Frameworks */,
+				0F0366251680384F003C8E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F0366251680384F003C8E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F0366241680384F003C8E73 /* RoundedView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0366271680384F003C8E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F03664516803870003C8E73 /* QuartzCore.framework */,
+				0F0366281680384F003C8E73 /* UIKit.framework */,
+				0F03662A1680384F003C8E73 /* Foundation.framework */,
+				0F03662C1680384F003C8E73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F03662E1680384F003C8E73 /* RoundedView */ = {
+			isa = PBXGroup;
+			children = (
+				0F0366371680384F003C8E73 /* AppDelegate.h */,
+				0F0366381680384F003C8E73 /* AppDelegate.m */,
+				0F03663A1680384F003C8E73 /* ViewController.h */,
+				0F03663B1680384F003C8E73 /* ViewController.m */,
+				0F03663D1680384F003C8E73 /* ViewController.xib */,
+				0F03662F1680384F003C8E73 /* Supporting Files */,
+			);
+			path = RoundedView;
+			sourceTree = "<group>";
+		};
+		0F03662F1680384F003C8E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0366301680384F003C8E73 /* RoundedView-Info.plist */,
+				0F0366311680384F003C8E73 /* InfoPlist.strings */,
+				0F0366341680384F003C8E73 /* main.m */,
+				0F0366361680384F003C8E73 /* RoundedView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F0366231680384F003C8E73 /* RoundedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0366421680384F003C8E73 /* Build configuration list for PBXNativeTarget "RoundedView" */;
+			buildPhases = (
+				0F0366201680384F003C8E73 /* Sources */,
+				0F0366211680384F003C8E73 /* Frameworks */,
+				0F0366221680384F003C8E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedView;
+			productName = RoundedView;
+			productReference = 0F0366241680384F003C8E73 /* RoundedView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F03661B1680384F003C8E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Ibokan;
+			};
+			buildConfigurationList = 0F03661E1680384F003C8E73 /* Build configuration list for PBXProject "RoundedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F0366191680384F003C8E73;
+			productRefGroup = 0F0366251680384F003C8E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0366231680384F003C8E73 /* RoundedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0366221680384F003C8E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0366331680384F003C8E73 /* InfoPlist.strings in Resources */,
+				0F03663F1680384F003C8E73 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0366201680384F003C8E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0366351680384F003C8E73 /* main.m in Sources */,
+				0F0366391680384F003C8E73 /* AppDelegate.m in Sources */,
+				0F03663C1680384F003C8E73 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F0366311680384F003C8E73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0366321680384F003C8E73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F03663D1680384F003C8E73 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F03663E1680384F003C8E73 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0366401680384F003C8E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F0366411680384F003C8E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F0366431680384F003C8E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedView/RoundedView-Prefix.pch";
+				INFOPLIST_FILE = "RoundedView/RoundedView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F0366441680384F003C8E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundedView/RoundedView-Prefix.pch";
+				INFOPLIST_FILE = "RoundedView/RoundedView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F03661E1680384F003C8E73 /* Build configuration list for PBXProject "RoundedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0366401680384F003C8E73 /* Debug */,
+				0F0366411680384F003C8E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0366421680384F003C8E73 /* Build configuration list for PBXNativeTarget "RoundedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0366431680384F003C8E73 /* Debug */,
+				0F0366441680384F003C8E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F03661B1680384F003C8E73 /* Project object */;
+}

@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF7956E16327364001B5AAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF7956D16327364001B5AAA /* Cocoa.framework */; };
+		0FF7957816327364001B5AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF7957616327364001B5AAA /* InfoPlist.strings */; };
+		0FF7957A16327364001B5AAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7957916327364001B5AAA /* main.m */; };
+		0FF7957E16327364001B5AAA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0FF7957C16327364001B5AAA /* Credits.rtf */; };
+		0FF7958116327364001B5AAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7958016327364001B5AAA /* AppDelegate.m */; };
+		0FF7958416327364001B5AAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF7958216327364001B5AAA /* MainMenu.xib */; };
+		0FF7958C16327364001B5AAA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF7958B16327364001B5AAA /* SenTestingKit.framework */; };
+		0FF7958D16327364001B5AAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF7956D16327364001B5AAA /* Cocoa.framework */; };
+		0FF7959516327364001B5AAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF7959316327364001B5AAA /* InfoPlist.strings */; };
+		0FF7959816327364001B5AAA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7959716327364001B5AAA /* ____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FF7958E16327364001B5AAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FF7956016327364001B5AAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF7956816327364001B5AAA;
+			remoteInfo = "网上资料";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF7956916327364001B5AAA /* 网上资料.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网上资料.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF7956D16327364001B5AAA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0FF7957016327364001B5AAA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0FF7957116327364001B5AAA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0FF7957216327364001B5AAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF7957516327364001B5AAA /* 网上资料-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "网上资料-Info.plist"; sourceTree = "<group>"; };
+		0FF7957716327364001B5AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF7957916327364001B5AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF7957B16327364001B5AAA /* 网上资料-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "网上资料-Prefix.pch"; sourceTree = "<group>"; };
+		0FF7957D16327364001B5AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0FF7957F16327364001B5AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FF7958016327364001B5AAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FF7958316327364001B5AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0FF7958A16327364001B5AAA /* 网上资料Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网上资料Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF7958B16327364001B5AAA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0FF7959216327364001B5AAA /* 网上资料Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "网上资料Tests-Info.plist"; sourceTree = "<group>"; };
+		0FF7959416327364001B5AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF7959616327364001B5AAA /* ____Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "____Tests.h"; sourceTree = "<group>"; };
+		0FF7959716327364001B5AAA /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF7956616327364001B5AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7956E16327364001B5AAA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF7958616327364001B5AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7958C16327364001B5AAA /* SenTestingKit.framework in Frameworks */,
+				0FF7958D16327364001B5AAA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF7955E16327364001B5AAA = {
+			isa = PBXGroup;
+			children = (
+				0FF7957316327364001B5AAA /* 网上资料 */,
+				0FF7959016327364001B5AAA /* 网上资料Tests */,
+				0FF7956C16327364001B5AAA /* Frameworks */,
+				0FF7956A16327364001B5AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF7956A16327364001B5AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7956916327364001B5AAA /* 网上资料.app */,
+				0FF7958A16327364001B5AAA /* 网上资料Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF7956C16327364001B5AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7956D16327364001B5AAA /* Cocoa.framework */,
+				0FF7958B16327364001B5AAA /* SenTestingKit.framework */,
+				0FF7956F16327364001B5AAA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF7956F16327364001B5AAA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7957016327364001B5AAA /* AppKit.framework */,
+				0FF7957116327364001B5AAA /* CoreData.framework */,
+				0FF7957216327364001B5AAA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0FF7957316327364001B5AAA /* 网上资料 */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7957F16327364001B5AAA /* AppDelegate.h */,
+				0FF7958016327364001B5AAA /* AppDelegate.m */,
+				0FF7958216327364001B5AAA /* MainMenu.xib */,
+				0FF7957416327364001B5AAA /* Supporting Files */,
+			);
+			path = "网上资料";
+			sourceTree = "<group>";
+		};
+		0FF7957416327364001B5AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7957516327364001B5AAA /* 网上资料-Info.plist */,
+				0FF7957616327364001B5AAA /* InfoPlist.strings */,
+				0FF7957916327364001B5AAA /* main.m */,
+				0FF7957B16327364001B5AAA /* 网上资料-Prefix.pch */,
+				0FF7957C16327364001B5AAA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FF7959016327364001B5AAA /* 网上资料Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7959616327364001B5AAA /* ____Tests.h */,
+				0FF7959716327364001B5AAA /* ____Tests.m */,
+				0FF7959116327364001B5AAA /* Supporting Files */,
+			);
+			path = "网上资料Tests";
+			sourceTree = "<group>";
+		};
+		0FF7959116327364001B5AAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF7959216327364001B5AAA /* 网上资料Tests-Info.plist */,
+				0FF7959316327364001B5AAA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF7956816327364001B5AAA /* 网上资料 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF7959B16327364001B5AAA /* Build configuration list for PBXNativeTarget "网上资料" */;
+			buildPhases = (
+				0FF7956516327364001B5AAA /* Sources */,
+				0FF7956616327364001B5AAA /* Frameworks */,
+				0FF7956716327364001B5AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网上资料";
+			productName = "网上资料";
+			productReference = 0FF7956916327364001B5AAA /* 网上资料.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FF7958916327364001B5AAA /* 网上资料Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF7959E16327364001B5AAA /* Build configuration list for PBXNativeTarget "网上资料Tests" */;
+			buildPhases = (
+				0FF7958516327364001B5AAA /* Sources */,
+				0FF7958616327364001B5AAA /* Frameworks */,
+				0FF7958716327364001B5AAA /* Resources */,
+				0FF7958816327364001B5AAA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF7958F16327364001B5AAA /* PBXTargetDependency */,
+			);
+			name = "网上资料Tests";
+			productName = "网上资料Tests";
+			productReference = 0FF7958A16327364001B5AAA /* 网上资料Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF7956016327364001B5AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0FF7956316327364001B5AAA /* Build configuration list for PBXProject "网上资料" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF7955E16327364001B5AAA;
+			productRefGroup = 0FF7956A16327364001B5AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF7956816327364001B5AAA /* 网上资料 */,
+				0FF7958916327364001B5AAA /* 网上资料Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF7956716327364001B5AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7957816327364001B5AAA /* InfoPlist.strings in Resources */,
+				0FF7957E16327364001B5AAA /* Credits.rtf in Resources */,
+				0FF7958416327364001B5AAA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF7958716327364001B5AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7959516327364001B5AAA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF7958816327364001B5AAA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF7956516327364001B5AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7957A16327364001B5AAA /* main.m in Sources */,
+				0FF7958116327364001B5AAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FF7958516327364001B5AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF7959816327364001B5AAA /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FF7958F16327364001B5AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FF7956816327364001B5AAA /* 网上资料 */;
+			targetProxy = 0FF7958E16327364001B5AAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FF7957616327364001B5AAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF7957716327364001B5AAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FF7957C16327364001B5AAA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF7957D16327364001B5AAA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0FF7958216327364001B5AAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF7958316327364001B5AAA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0FF7959316327364001B5AAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF7959416327364001B5AAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF7959916327364001B5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0FF7959A16327364001B5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0FF7959C16327364001B5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上资料/网上资料-Prefix.pch";
+				INFOPLIST_FILE = "网上资料/网上资料-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF7959D16327364001B5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上资料/网上资料-Prefix.pch";
+				INFOPLIST_FILE = "网上资料/网上资料-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0FF7959F16327364001B5AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/网上资料.app/Contents/MacOS/网上资料";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上资料/网上资料-Prefix.pch";
+				INFOPLIST_FILE = "网上资料Tests/网上资料Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0FF795A016327364001B5AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/网上资料.app/Contents/MacOS/网上资料";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上资料/网上资料-Prefix.pch";
+				INFOPLIST_FILE = "网上资料Tests/网上资料Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF7956316327364001B5AAA /* Build configuration list for PBXProject "网上资料" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF7959916327364001B5AAA /* Debug */,
+				0FF7959A16327364001B5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF7959B16327364001B5AAA /* Build configuration list for PBXNativeTarget "网上资料" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF7959C16327364001B5AAA /* Debug */,
+				0FF7959D16327364001B5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0FF7959E16327364001B5AAA /* Build configuration list for PBXNativeTarget "网上资料Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF7959F16327364001B5AAA /* Debug */,
+				0FF795A016327364001B5AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF7956016327364001B5AAA /* Project object */;
+}
